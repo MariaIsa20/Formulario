@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Form</string>
+    <string name="Login">User</string>
+    <string name="Password">Password</string>
+    <string name="Confirm_Password">Confirm Password</string>
+    <string name="E_mail">E-mail</string>
+    <string name="Masculino">Male</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="pick_date">Pick date</string>
+    <string name="Hobby">Hobby:</string>
+    <string name="Reading">Reading</string>
+    <string name="Swimming">Swimming</string>
+    <string name="Knitting">Knitting</string>
+    <string name="Joggin">Joggin</string>
+    <string name="OK">OK</string>
+    <string name="Date">Pick Date</string>
+    <string name="Select">City of birth</string>
+    <string name="promptspinner">Select</string>
+    <string name="Data">Data</string>
+    <string name="Info">Data:</string>
+
+
+</resources>

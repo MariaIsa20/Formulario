@@ -143,7 +143,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@color/lightgreen"
+            android:background="@color/palegreen"
             android:text="@string/Date"
             android:textAllCaps="false"
             android:textColor="@color/black"
@@ -157,6 +157,7 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:id="@+id/date"
+            android:gravity="center"
 
 
             />
@@ -172,7 +173,8 @@
         <TextView
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:layout_height="40sp"
+            android:gravity="center"
             android:id="@+id/tCiudades"
             android:text="@string/Select"
             android:textSize="20sp"
@@ -184,7 +186,7 @@
 
         <Spinner
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="40sp"
             android:id="@+id/sSpinner"
             android:layout_weight="1"
             android:prompt="@string/promptspinner"
@@ -306,18 +308,18 @@
         android:layout_gravity="center"
         android:id="@+id/boton"
         android:onClick="Aceptar"
-        android:background="@color/lightgreen"
+        android:background="@color/palegreen"
 
         />
 
     <TextView
+        android:id="@+id/info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textColor="@color/seagreen"
-        android:text="@string/Info"
         android:gravity="center"
-        android:id="@+id/info"
+        android:text="@string/Info"
+        android:textColor="@color/seagreen"
+        android:textSize="20sp"
 
         />
 
